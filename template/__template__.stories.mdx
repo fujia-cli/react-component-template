@@ -1,11 +1,11 @@
 import { Meta, Story, Canvas } from '@storybook/addon-docs';
 
-import __Template__ from './__template__';
+import <%= pascalName %> from './<%= rawName %>';
 import ReadMe from './README.en-US.md';
 
-<Meta title="Components/__classification__/__Template__" component={__Template__} />
+<Meta title="Components/__classification__/<%= pascalName %>" component={<%= pascalName %>} />
 
-## __Template__
+## <%= pascalName %>
 
 The descriptions of your component.
 
@@ -14,9 +14,7 @@ The descriptions of your component.
 There are some examples as follows which can help you get started quickly.
 
 <Canvas>
-  <Story name="your name">
-    
-  </Story>
+  <Story name="your name"></Story>
 </Canvas>
 
 <ReadMe />

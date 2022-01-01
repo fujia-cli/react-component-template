@@ -1,6 +1,6 @@
 import { CSSProperties } from "react";
 
-export interface __Template__Props {
+export interface <%= pascalName %>Props {
   className?: string;
   style?: CSSProperties;
 }

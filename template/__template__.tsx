@@ -1,11 +1,11 @@
 import React, { FC } from 'react';
 import classnames from 'classnames';
 
-import { __Template__Props } from './interface';
+import { <%= pascalName %>Props } from './interface';
 
-const prefixCls = 'pr-__template__';
+const prefixCls = 'pr-<%= rawName %>';
 
-const __Template__: FC<__Template__Props> = (props) => {
+const <%= pascalName %>: FC<<%= pascalName %>Props> = (props) => {
   const {
     className,
     style
@@ -20,4 +20,4 @@ const __Template__: FC<__Template__Props> = (props) => {
   );
 };
 
-export default __Template__;
+export default <%= pascalName %>;

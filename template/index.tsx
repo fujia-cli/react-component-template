@@ -1,6 +1,6 @@
 
-import __Template__ from './__template__';
+import <%= pascalName %> from './<%= rawName %>';
 
-export type { __Template__Props } from './interface';
+export type { <%= pascalName %>Props } from './interface';
 
-export default __Template__;
+export default <%= pascalName %>;
